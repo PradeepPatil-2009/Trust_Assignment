@@ -95,7 +95,18 @@ Max threads: 1000
 Accept count: 5000
 Max connections: 10000
 -----------------------------------
-Load Testing (Apache JMeter)
+Load Testing (Apache JMeter) :
+## Load Testing Evidence
+
+JMeter test plans and result screenshots are available under:
+
+jmeter/
+ test-plan.jmx
+ results/
+ summary-report.png
+ aggregate-report.png
+ thread-group-config.png
+
 Test Configuration :
 Two thread groups (Bank A and Bank B)
 2000 users per group
